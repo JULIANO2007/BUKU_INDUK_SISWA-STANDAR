@@ -1,102 +1,73 @@
-Portal Buku Induk Siswa
+Student Master Book Portal
+Version: Standard — Private / Personal Portfolio
 
-Versi: Standar — Privat / Portofolio Pribadi
+🧩 General Description
+The Student Master Book Portal is a web-based system designed to help schools centrally and efficiently manage student, teacher, and academic information.
+This project was developed independently for a personal portfolio, with a focus on modern, educational-themed UI/UX design and a clean backend architecture using the Laravel Framework.
+This application features an elegant and professional login page with a split-screen display, smooth gradients, and dynamic interactions using JavaScript.
 
-🧩 Deskripsi Umum
+✨ Development Goals
+This is a personal learning project in implementing the Laravel framework and professional UI/UX design.
+This is a simulation of a school information system, specifically student data management.
+This applies the concepts of clean code, an interactive frontend, and a responsive layout.
 
-Portal Buku Induk Siswa adalah sistem berbasis web yang dirancang untuk membantu sekolah dalam mengelola data siswa, guru, serta informasi akademik secara terpusat dan efisien.
-
-Proyek ini dikembangkan secara mandiri untuk portofolio pribadi, dengan fokus pada desain UI/UX bertema pendidikan modern serta arsitektur backend yang rapi menggunakan Laravel Framework.
-
-Aplikasi ini menampilkan halaman login yang elegan dan profesional dengan tampilan split-screen, gradasi lembut, dan interaksi dinamis menggunakan JavaScript.
-
-✨ Tujuan Pengembangan
-
-Sebagai proyek pembelajaran pribadi dalam penerapan framework Laravel dan desain UI/UX profesional.
-
-Menjadi simulasi sistem informasi sekolah, khususnya pengelolaan data siswa.
-
-Menerapkan konsep clean code, frontend interaktif, dan tata letak responsif.
-
-🖥️ Fitur Utama
-Fitur	Deskripsi
-🔐 Halaman Login Edukatif	Desain layar terpisah (split screen) dengan ilustrasi bertema sekolah dan form login modern.
-🧑‍🏫 Login via Akun Sekolah / NIS	Pengguna dapat masuk menggunakan email sekolah atau nomor induk siswa.
-🎨 Tampilan Bertema Pendidikan	Warna pastel lembut (biru muda, putih, abu-abu), font Poppins, serta ikon edukatif.
-📱 Desain Responsif	Mendukung tampilan desktop, tablet, dan smartphone dengan tata letak adaptif.
-⚡ Animasi & Interaksi	Efek hover, transisi lembut, validasi input, serta status pemuatan tombol dengan JavaScript.
-🔒 Privasi & Portofolio	Proyek ini bersifat pribadi, digunakan hanya untuk dokumentasi dan pengembangan keahlian pribadi.
-⚙️ Teknologi Digunakan
-Kategori	Teknologi
-Framework	Laravel 10
-Bahasa Pemrograman	PHP 8, HTML5, CSS3, JavaScript (Vanilla)
-Template Engine	Laravel Blade
-Desain & Font	CSS Custom, Google Fonts (Poppins)
-Tools	Git, GitHub, VSCode
-Server Lokal	PHP Artisan (Laravel Serve)
-🧠 Konsep Desain Halaman Login
-
-Desain ini dibuat dengan pendekatan UI/UX Edukatif, yang memadukan:
-
-Latar belakang gradasi biru lembut untuk kesan tenang dan profesional.
-
-Kartu login dengan efek blur dan drop shadow agar terlihat fokus di tengah layar.
-
-Split screen layout — sisi kiri untuk ilustrasi edukatif, sisi kanan untuk form login.
-
-Animasi halus (fade-in) agar pengguna mendapat pengalaman interaktif tanpa berlebihan.
-
-Aksesibilitas warna dan tipografi: kontras teks dan elemen dibuat nyaman untuk mata pengguna.
-
-🗂️ Struktur Folder Penting
+🖥️ Main Features
+Feature Description
+🔐 Educational Login Page Split-screen design with school-themed illustrations and a modern login form.
+🧑‍🏫 Login via School Account / NIS Users can log in using their school email or student ID number.
+🎨 Educational Themed Appearance Soft pastel colors (light blue, white, gray), Poppins font, and educational icons.
+📱 Responsive Design Supports desktop, tablet, and smartphone displays with an adaptive layout.
+⚡ Animation & Interaction Hover effects, smooth transitions, input validation, and button loading states with JavaScript.
+🔒 Privacy & Portfolio This project is private, used only for documentation and personal skill development.
+⚙️ Technology Used
+Technology Category
+Laravel 10 Framework
+Programming Languages: PHP 8, HTML5, CSS3, JavaScript (Vanilla)
+Laravel Blade Template Engine
+Custom CSS Design & Fonts, Google Fonts (Poppins)
+Tools: Git, GitHub, VSCode
+Local Server: PHP Artisan (Laravel Serve)
+🧠 Login Page Design Concept
+This design is created with an Educational UI/UX approach, combining:
+A soft blue gradient background for a calm and professional feel.
+A login card with a blur effect and drop shadow to focus on the center of the screen.
+Split-screen layout — left side for educational illustrations, right side for the login form.
+Smooth animations (fade-ins) for an interactive experience without being overwhelming.
+Color and typography accessibility: Text and element contrast is kept comfortable on the user's eyes.
+🗂️ Important Folder Structure
 resources/
- └── views/
-     └── welcome.blade.php     # Halaman login utama
+└── views/
+└── welcome.blade.php # Main login page
 public/
- ├── css/login.css             # Desain halaman login (UI pendidikan)
- ├── js/login.js               # Efek animasi dan status pemuatan
- ├── images/                   # Logo sekolah & ikon edukatif
+├── css/login.css # Login page design (educational UI)
+├── js/login.js # Animation effects and loading status
+├── images/ # School logo & educational icons
 
-🚀 Cara Menjalankan Proyek (Lokal)
-
-Clone repository ini:
-
+🚀 How to Run the Project (Locally)
+Clone this repository:
 git clone https://github.com/JULIANO2007/BUKU_INDUK_SISWA-STANDAR.git
-
-
-Masuk ke direktori project:
-
+Enter the project directory:
 cd BUKU_INDUK_SISWA-STANDAR
 
-
 Install dependencies:
-
 composer install
 npm install && npm run dev
-
-
-Jalankan server:
-
+Run the server:
 php artisan serve
-
-
-Buka browser dan akses:
-
+Open a browser and access:
 http://localhost:8000
 
-🔒 Catatan Privasi
+🔒 Privacy Note
+This project is not for publication or commercial use,
+but rather for personal portfolio and learning about UI/UX & Laravel.
+All data used is dummy data only.
 
-Proyek ini tidak untuk publikasi atau komersial,
-melainkan sebagai portofolio pribadi dan pembelajaran UI/UX & Laravel.
-Seluruh data yang digunakan hanyalah data contoh (dummy).
-
-👨‍💻 Pengembang
-
-Nama: Juliano
+👨‍💻 Developer
+Name: Juliano
 Role: Fullstack Developer (UI/UX + Laravel)
 Repository: github.com/JULIANO2007
 
-📜 Lisensi
+📜 License
 
-Proyek ini bersifat pribadi (non-komersial) dan tidak disarankan untuk disalin atau digunakan tanpa izin pengembang.
+This project is for personal (non-commercial) use and is not recommended for copying or use without the developer's permission.
 © 2025 — Juliano | All Rights Reserved.
